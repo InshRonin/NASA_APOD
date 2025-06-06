@@ -59,4 +59,4 @@ Made with 💙 by Insh_Ronin
 ## 📜 License
 This project is licensed under the MIT License. Feel free to use and modify! 🔓
 
-🛰️ Enjoy exploring the universe, one picture at a time!
+🛰️ Enjoy exploring the universe, one picture at a time! 
