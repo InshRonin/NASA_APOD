@@ -13,9 +13,13 @@ This project allows users to explore stunning images from space curated by NASA,
 ## 📁 Project Structure
 
 📦 NASA APOD
+
 ├── index.html # Main HTML file
+
 ├── style.css # Styling and themes
+
 ├── app.js # JavaScript logic for fetching and displaying APOD
+
 ├── Assets/ # Icons, images, and favicon
 
 
@@ -48,11 +52,11 @@ To run this project locally:
     💡 Make sure you have a working internet connection as this app relies on NASA's live API.
 
 
-##🧑‍💻 Author
+## 🧑‍💻 Author
 Made with 💙 by Insh_Ronin
 
 
-##📜 License
+## 📜 License
 This project is licensed under the MIT License. Feel free to use and modify! 🔓
 
 🛰️ Enjoy exploring the universe, one picture at a time!
