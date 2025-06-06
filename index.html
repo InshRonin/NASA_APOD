@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space-Time</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./Assets/favicon_io/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <button onclick="darkmode()" class="search-btn" id="sun">
+        <img src="./Assets/light.png" alt="light mode" />
+      </button>
+      <button onclick="darkmode()" class="darkmode-btn" id="moon">
+        <img src="./Assets/dark.png" alt="dark mode" />
+      </button>
+      <button class="search-btn" id="search-btn">
+        <img src="./Assets/black.svg" alt="search icon" />
+      </button>
+      <button class="darkmode-btn" id="dark-search">
+        <img src="./Assets/white.svg" alt="search icon" />
+      </button>
+      <div class="date-input">
+        <input type="date" name="date" id="date" value="2000-01-01" />
+      </div>
+    </header>
+
+    <main>
+      <img src="" alt="" id="image" />
+      <p id="info"></p>
+    </main>
+    <footer>
+      &copy;
+      <h4>Insh_Ronin all rights reserved</h4>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
