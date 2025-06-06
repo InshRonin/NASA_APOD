@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: "Nunito sans", sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)),
+    url(./Assets/space\ bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.date-input {
+  display: block;
+  width: 40rem;
+  margin: 1rem;
+}
+
+.date-input > input[type="date"] {
+  display: block;
+  width: 100%;
+  height: 2rem;
+  border: none;
+  border-radius: 1rem;
+  text-align: center;
+  color: blue;
+  font-family: "Nunito sans", sans-serif;
+}
+
+.search-btn {
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0.863);
+  margin: 1rem;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+header > button:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10rem;
+}
+
+#image {
+  width: 30rem;
+  height: auto;
+  border-radius: 0.8rem;
+  margin: 1.5rem;
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.6);
+  transition: box-shadow 0.3s ease;
+}
+
+#image:hover {
+  box-shadow: 0 0 45px rgba(255, 255, 255, 0.7);
+}
+
+#info {
+  color: antiquewhite;
+  width: 30rem;
+  font-size: 1.2rem;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #171330;
+  color: white; /* Optional: for visibility */
+  text-align: center;
+  padding: 1rem;
+  z-index: 100;
+}
+
+body.dark-mode {
+  position: relative;
+  font-family: "Nunito sans", sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8)),
+    url(./Assets/space\ bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+body.dark-mode .date-input > input[type="date"] {
+  background-color: #1e1e1e;
+  color: #90cdf4;
+}
+
+body.dark-mode header > .darkmode-btn {
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin: 1rem;
+  border: none;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  background-color: rgba(0, 0, 0,0.8);
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
